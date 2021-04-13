@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "aminehr",
+  "license": "ISC",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.7",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "mongoose-extend-schema": "^1.0.0",
+    "nexmo": "^2.9.1",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "stripe": "^8.142.0",
+    "uuid": "^8.3.2"
+  }
+}
